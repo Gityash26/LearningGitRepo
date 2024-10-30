@@ -27,13 +27,13 @@
 
 
 ----------------------------------
-:::: It is a two step process :::
+:::: It is a three step process :::
 -----------------------------------
 
-        _____________________                                                                                 _____________
-        |   Changed Code    |-----------> [Add file to stage] ---------------> [Commit with msg] -----------> | Main file |
-        |___________________|                                                                                 |___________|
-            Clone file                                                                                            Github
+        _____________________                                                                                                   _____________
+        |   Changed Code    |-----------> [Add file to stage] ---------------> [Commit with msg] -----------> [Push] -------->  | Main file |
+        |___________________|                                                                                                   |___________|
+            Clone file                                                                                                             Github
 
 
 
@@ -48,6 +48,7 @@
    |     ( Unclicked couples) --------> Untracked files          |
    |     ( Comes at stage   ) --------> git add <fileName>       |
    |     ( Clicking picture ) --------> git commit -m <message>  |
+   |     ( Upload on system ) --------> git push                 |
    |_____________________________________________________________|
 
 -------------------------------------------------------------------------------------------------------------------------
@@ -89,13 +90,19 @@
 ==============================
 (3) git commit -m <message>
 ------------------------------
--> This command is used to move all the untracked files at stage into Tracked file on Github Repo.
--> Save all the changes from (clone file) --> (github file)
+-> This command is used to move all the untracked files at stage into Tracked file.
+-> This command commit all the changes and now we can finally push those changes on github repo.
 
+
+==============================
+(4) git push
+------------------------------
+-> This command upload all the changes on the Gitthub Repo.
+-> And the changes are finally reflect on teh github. 
 
 
 ------------------------------
-(4) git log
+(5) git log
  ------------------------------
 -> This command is used to display all the history stored in the .git folder
 
@@ -109,7 +116,9 @@
                  |
           _______|________
           |____commit____|           (unchanged)
-                 
+                 |
+          _______|________
+          |____push______|           (Nothing to commit)
     
     
 
