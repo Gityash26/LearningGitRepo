@@ -95,7 +95,7 @@
 
 
 ==============================
-(4) git push
+(4) git push origin main
 ------------------------------
 -> This command upload all the changes on the Gitthub Repo.
 -> And the changes are finally reflect on teh github. 
