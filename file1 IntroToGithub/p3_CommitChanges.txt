@@ -59,15 +59,21 @@
 ------------------------------
 -> This command is used to show the current status of our changes performed in file. 
 -> If the status is untracked then we have to commit those files.
+-> There are mainly four types of status we encountered in the Git Github.
+
 
 
 =========================================================================
-|    status          |      Description                                 |
-|____________________|__________________________________________________|
-| Nothing to commit  | Local file is same as the Github file            |
-|____________________|__________________________________________________|
-| Untracked          | Local file is changed and needs to be commit     |
-|____________________|__________________________________________________|
+      status          |      Description                                 
+-------------------------------------------------------------------------
+(1) untracked         | new untracked file
+-------------------------------------------------------------------------
+(2) modified          | modified existing file 
+-------------------------------------------------------------------------
+(3) staged            | file ready to commit (stage point)
+-------------------------------------------------------------------------
+(4) unmodified        | Nothing to commit
+=========================================================================
 
 
 
@@ -95,53 +101,18 @@
 
 
 
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Commands for Restore file =-=-=-=-=-=-=-=-=-=-=-=-=-=-= (Local <- Github)
------------------------------------------------------------------------------------------
-
--> Now, we already done with understanding how to 'stage changes' , 'commit changes' , 'Display the history' but 
-   what if we wants to move back in the past.
-
--> Suppose we chnages our code alot with proper history maintainded but now we wants to reverse the changes.
-
--> In that case these commands are used : 
-
-
-
-
-------------------------------
-(4) git restore --staged <fileName>
-------------------------------
--> This command is used to restore the file that comes at the stage (add) using command 'git add fileName'
-   by mistake and we don't wants to save it at main level.
+     __________________________
+     |____change_/_new-file___|   (modified/untracked)
+                 |
+          _______|________
+          |_____add______|            (staged)
+                 |
+          _______|________
+          |____commit____|           (unchanged)
+                 
+    
+    
 
 
 
 
-
-------------------------------
-(1) git restore <history hash code>
- ------------------------------
--> This command is used to reverse the history at a particular has code.
--> hash code will be available at the history section of the git.
-
-
-
-------------------------------
-(2) git stash
- ------------------------------
--> This command is used when we are having some chnages at the stage level.
--> And we wants to save those changes somewhere other than commit to the main file.
--> for example those guest whom are late but still with no photograph clicked (Untracked) wanting at the backstage 
-   so that other working can be done as normal. 
--> And whenever we wants to make those changes available we can call them on stage and commit.
--> git stash command hold those changes at the 'backstage'
-
-
-
-------------------------------
-(2) git pop
- ------------------------------
--> This command is used to make those changes present at the back stage to come on the stage.
--> And then we can simple commit those changes.
