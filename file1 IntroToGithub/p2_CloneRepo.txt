@@ -1,0 +1,106 @@
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-= Basic Linux Commands =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+----------------------------------------------------------------------------------------
+
+==============================
+(1) cd <path> : 
+==============================
+-> This command is used to move into the Folder Structure
+
+
+==============================
+(2) ls : 
+==============================
+-> This command is used to display all the files or folder present in the current directory
+
+
+==============================
+(3) mkdir <DirectoryName> : 
+==============================
+-> This command is used to create a Directory
+
+
+==============================
+(4) touch <fileName>
+==============================
+-> This command is used to create a file 
+
+ 
+==============================
+(5) touch <fileName>
+==============================
+-> This command is used to create a file 
+
+ 
+==============================
+(6) rm -rf <fileName>
+==============================
+-> This command is used to delete a file 
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Clone and Status =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-----------------------------------------------------------------------------------------
+
+    Remote                           
+   [Github]                         
+       |                                     Local
+       |__________ (Repository)--------->  [Computer]
+
+
+==============================
+(1) git clone <link> 
+------------------------------
+-> This command is used to clone a repository available on you 'Github' into your local system.
+-> Every developer make a clone (copy) at their local system of the main file and do their changes.
+-> After Adding, or changing the features developer can share their 'Updated file' on the github.
+-> Open your repo on Github you will fine you <link>
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Initilize .git folder =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-----------------------------------------------------------------------------------------
+
+-> When we are created a repository directly on github then their is a 'hidden' folder named as (.git)
+
+-> And when we are created a folder on our local system and then upload it on Github, 
+   In that case we have to initilize our Folder with 'git init' command that makes a (.git) folder.
+
+-> This folder stores the record of all the changes done in our Repository.
+
+        ________________________
+        |                       |
+        |   My repository     <-|------------ [.git] <hidden folder stores the history> 
+        |_______________________|
+
+
+                 
+
+==============================
+(1) git init
+------------------------------
+-> This command is used to create a 'empty git repository' with [.git] extension.
+-> This folder stores the history of all the changes performed.
+-> This file is hidden and cannot visible with 'ls' command.
+-> This initilization make our directory to track all the changes happens.
+
+
+::: Note :::
+-> Now every changes done in the code is tracked by the [.git] repository and when a programmer done any changes in their local system file then 
+   we are having all the 'Un-tracked' record maintained in the .git repo.
+-> After doing all the changes at local system level user have to save those changes at (main file) so that everyone have the access to the new modified file.  
+
+
+
+==============================
+(2) ls -a
+------------------------------
+-> This command is used to show all the hidden files.
+
+  
+
+
