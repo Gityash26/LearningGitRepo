@@ -1,0 +1,134 @@
+/* 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=-=-=-=-=- Why we are learning Git and Github =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+----------------------------------------------------------------------------------------
+
+-> We all come accross the situation where our code get messed up or the logic need to be Re-design but due to applying 
+many changes we are having no previous backup or record.
+
+-> So, we wish to have a way that keeps the record of all the changes so that, If this type of situation occurs where we wants
+to (restore / undo) the changes.
+
+-> Git is that way that helps to maintain the record of all the chnages and provide a way to restore the previous code. 
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------ What is Git --------------------------------
+===========================================================================
+-> A git is a 'version control system'
+-> It is a tool that helps to keep the track of all the changes done in the code.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--- Why only git --------------
+===============================
+-> Because git is popular
+-> Free and open source 
+-> Fast and scalable
+
+
+
+==========================================================
+-> Git is mainly used for two types of work:
+==========================================================
+
+---------------------------------
+(1) Track the History
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+               _____________________                 _____________________                 _____________________
+               |                    |                |                    |                |                    |
+               |  Signup form       |                |  Signup form       |                |  Signup form       |
+               |                    |  <==========>  |  Buttons           |  <==========>  |  Buttons           |
+               |                    |                |                    |                |  Contact me        |
+               |____________________|                |____________________|                |____________________|
+                  progress 1                              progress 2                           progress 3
+         ---------------------------------------------------------------------------------------------------------------------               
+               date: 2 july                            date: 5 july                         date: 10 july            <------------ History
+         ----------------------------------------------------------------------------------------------------------------------               
+
+
+-> Git helps to keep track and record of all the changes done in the code so that if in case we got stucked duee to any problem and wants to 
+   revert all the changes till a particular feature progress, we can easily done it using git.
+
+
+   
+---------------------------------
+(2) Collaborate development
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+        _______________                                                     _______________
+        |   Person 1  |                                                     |   Person 2  |               
+        |_____________|                                                     |_____________|   
+            |                       ________________________                      |        
+            |---------------------> |                      | <--------------------| 
+                                    |       C O D E        |                        
+                                    |                      | <---------------------| 
+             |--------------------> |______________________|                       |
+             |                                                                     |
+        _____|_________                                                     _______|_______
+        |   Person 3  |                                                     |   Person 4  |                                       
+        |_____________|                                                     |_____________|   
+
+
+-> Software development at company level is done by more than one person on a single project.
+-> We need to keep the track of what changes done by which developer so that none of works gets 'override'.
+-> If two developers are working on the same file that we need to know which developer chnages are acceptable or not.
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------ What is Github -----------------------------
+===========================================================================
+
+:::::::::::::: Github is a Social media platform for developers :::::::::::::::::
+
+-> git is a 'Software' but 'Github' is a website that allows developer to store and manage their code using Git.
+-> Developers can upload their code on Github.
+-> Change their code on github.
+-> Reflect changes done from the local system to their main file at Github.
+-> Showcase our projects on Github.
+-> Seen codes of other peoples.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------  Do this on you System -----------------------------------------------
+===========================================================================
+-> Open github and create a repository.
+
+-> download Git bash on you system.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------  Connect Git with github (Configure Git) -------------------------
+===========================================================================
+
+--------------------------------
+Step1: Setting up you username
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   git config --global user.name "myName"
+
+   
+--------------------------------
+Step2: Setting up you email id
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   git config --global user.email "youEmail@gmail.com"
+
+   
+--------------------------------
+Step3: display you details
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   git config --list
+
+
+
+
+
+*/
