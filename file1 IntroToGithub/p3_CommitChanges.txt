@@ -23,7 +23,7 @@
 -----------------------------------------------------------
 -> The answer is if you perform any changes at your clone file then the changes gets 'Untracked'
    means that no one know about what changes you performed on the file.
--> If you wants to reflect changes at the main file on github that you have to 'Commit' the changes.
+-> If you wants to reflect those changes at the main file on github that you have to 'Commit' the changes.
 
 
 ----------------------------------

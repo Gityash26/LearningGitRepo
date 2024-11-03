@@ -1,0 +1,59 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------ Git Branches ----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                                                    working of (Team 1)                                      
+=====================================================================================================================                    
+|                                                                                                                   |
+|                                      /----------> [commit-3]-----> [commit-4]------> [commit-5]---\               |
+|                                      |                                                             |              |
+|                                      |                                                             |              |
+|     [commit-1]--------> [Commit-2]--------------> [commit-3]-----> [commit-4]------------------[Merge Point]      |
+|                                                                                                                   |
+=====================================================================================================================                    
+                                               working of (Team 2)                                      
+
+
+
+-> So, we  all know that at the industrial level more than one person of a team or even more than one team working 
+   on a same project.
+
+-> Suppose [backend team], [frontent team], are working on a same project so is that efficient if one team is just waiting so that other
+   team firstly finished their work and then they starts their works on the project.
+
+-> Answer is NO, the development relies on the fast development of teh Software that's why Github facilitate 'branches' that is very similar like 
+   branches of a tree.
+
+-> So, every Team create a seperate branch of the Github repo and start working on it [push changes] and in the last when both of them finished their 
+   work then the both the branches are merge into the 'main' branch.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(1) git branch 
+------------------------------------
+-> This command is used to check the current branch of the github repo 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(2) git branch -M <branch name>
+------------------------------------
+-> This command is used to rename the branch.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(3) git checkout <branch name>
+------------------------------------
+-> This command is used to move from one branch to another branch.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(4) git checkout -b <new branch name>
+------------------------------------
+-> This command is used to create a new branch
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(5) git branch -d <branch name>
+------------------------------------
+-> This command is used to delete a branch

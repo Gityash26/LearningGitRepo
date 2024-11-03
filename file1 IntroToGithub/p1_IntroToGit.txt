@@ -1,11 +1,11 @@
-/* 
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 =-=-=-=-=- Why we are learning Git and Github =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 ----------------------------------------------------------------------------------------
 
 -> We all come accross the situation where our code get messed up or the logic need to be Re-design but due to applying 
-many changes we are having no previous backup or record.
+   many changes we are having no previous backup or record.
 
 -> So, we wish to have a way that keeps the record of all the changes so that, If this type of situation occurs where we wants
 to (restore / undo) the changes.
@@ -35,7 +35,7 @@ to (restore / undo) the changes.
 -> Git is mainly used for two types of work:
 ==========================================================
 
----------------------------------
+--------------------------------- 
 (1) Track the History
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -100,15 +100,20 @@ to (restore / undo) the changes.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 --------  Do this on you System -----------------------------------------------
 ===========================================================================
--> Open github and create a repository.
+-> Open Github website and create your account.
+   Create a new 'Repository'
 
--> download Git bash on you system.
+-> download Git bash software on you system.
 
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 --------  Connect Git with github (Configure Git) -------------------------
 ===========================================================================
+
+                     connect
+            [git] <-----------> [Github]
+
 
 --------------------------------
 Step1: Setting up you username
@@ -127,8 +132,3 @@ Step3: display you details
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    git config --list
 
-
-
-
-
-*/

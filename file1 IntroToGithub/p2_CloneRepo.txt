@@ -44,6 +44,9 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Clone and Status =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 -----------------------------------------------------------------------------------------
+-> In this documentation we are going to learn how to clone the Repository available on the Github account 
+   on you comuter.
+
 
     Remote                           
    [Github]                         
@@ -64,7 +67,6 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Initilize .git folder =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 -----------------------------------------------------------------------------------------
-
 -> When we are created a repository directly on github then their is a 'hidden' folder named as (.git)
 
 -> And when we are created a folder on our local system and then upload it on Github, 
