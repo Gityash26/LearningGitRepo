@@ -1,0 +1,33 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------ Merging of Git Branches -----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-> So, I think we all are aware about how to make our seperate brach on github repo and perform our changes
+   but now then time is to meerge both the main branch and our branch so that all of the projects get ready.
+
+
+------ way 1 of merging ----------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(1) git diff <--branch name-->
+----------------------------------------                 
+-> This command is used to find teh differences, compare commits, Branches, files & more.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(2) git merge <--branch name-->
+----------------------------------------                 
+-> This command finally merge the specific branch with the main branch.
+                 
+
+
+
+
+------ way 2 of merging ----------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-> Creating 'pull request' on the github.
+-> It is helpful when multiple developers walnts to merge their code with the main branch 
+   so that they generate a pull request.
+-> Then the pull request verified by the available senior developer present over the main brach.
+-> Senior developer review our changes, comments for changes required and then decides whether changes are acceptable or not.

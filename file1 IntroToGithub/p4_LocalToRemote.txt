@@ -1,0 +1,147 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------- Push Command -----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-> Previously, we learned about how to download the existing project repo on our system and perform your changes.
+
+-> And in the last stage after (add) -> (commit) changes we are using push command to upload back all the changes at the 
+   Project repo and finally changes gets reflect on the github.
+
+
+
+-----------------------------------------------------
+:::::::::::::: git push origin main :::::::::::::::::
+-----------------------------------------------------
+-> We used this git push command to push all the changes done at [local clone repo] ---> [Github Repo].
+
+_________________________________________________________________________________
+|            |                                                                  |
+| git push   | Basic command used to push changes on github repo                |
+|            |                                                                  |
+|-------------------------------------------------------------------------------|
+|            |                                                                  |
+| origin     | There can be multiple repository on our github account and the   |
+|            | specific repo that we are used to clone in our local system      |
+|            | and perform changes are known as 'origin'.                       |
+|            |                                                                  |
+|-------------------------------------------------------------------------------|
+|            |                                                                  |
+| main       | This is the branch name we have to mention during push command   |
+|            | because their can be more than one branches inside a Singe Repo. |
+|            |                                                                  |
+|_______________________________________________________________________________|
+
+
+
+ ============================================
+ |                                          |
+ |   ________________    ________________   |        origin         __________________
+ |   |   Repo 1     |   |    Repo 2     |---|-----------------------|                |
+ |   |______________|   |_______________|   |                       |    [Repo 2]    |
+ |                                          |                       |  [clone file]  |
+ |   ________________    ________________   |                       |________________|
+ |   |   Repo 3     |   |    Repo 4     |   |                             /_____\
+ |   |______________|   |_______________|   |
+ |                                          |                           Local system
+ ============================================
+                   Github
+
+
+
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------- init Command -----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-> From now on we all know about how to clone/ download an existing Github Repo project into our local system 
+   and push back the file after peroforming changes.
+
+-> Suppose a college student started their first project into their local system and now they wants to upload it 
+   on github.
+
+-> Here we find a little bit of difference that previously we clone to download an existing Project Repo from the github 
+   but now we have to upload a Repo from (local) --> (Github)
+
+   ___________________________
+   |                         |
+   |    -------------        |                        _____________
+   |    |           |        |                        |           |
+   |    |___________|        |------------------->    |           |
+   |       project           |                        |___________|
+   |                         |                            Github
+   |_________________________|
+         Local system
+
+
+
+-------------------------------------------------
+::::::::::::::::::: Solution :::::::::::::::::::::
+-------------------------------------------------
+-> init commands are used when we need to upload a project repo created on a Local machine on github.
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(1) git init
+============================
+-> First of all you have to initilize a 'Empty git repo' inside your Local repo.
+-> This command is used to create a 'Empty git repository' inside the project folder.
+-> This Empty git repo (.git) stores the changes history inside the Project.
+-> (.git) is a hidden repo, use [ls -a command] OR [ls -hidden] to display the hiddent files.
+
+
+----- Note -----------------------------------------------
+-> Now you Local repository is ready to upload on github.
+---------------------------------------------------------
+-> Make sure that there can be multiple Repos on a github account
+---------------------------------------------------------
+-> So you have to create a Repository on you github so that we can upload our 
+   Local machine Project inside that Repository.
+---------------------------------------------------------
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(2) git remote add origin <link>
+===================================
+-> Open you terminal and switch you origin because currently you are connected to Previous Repo
+   in which you are leaning Github and clone it on you system.
+-> This command used to set origin of the github repo in which we are going to push our files.
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(3) git remote -v
+===================================
+-> This command is used to display the current origin where our changes upload or fetch.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(4) git branch
+===================================
+-> This command is used to display the current branch in which we are present.
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(5) git branch -M main 
+===================================
+-> This command is used to rename the branch 
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(6) git push origin main
+===================================
+-> This command is used to finally push all the available files on the github repo
